@@ -1,0 +1,4 @@
+agregar boton para eliminar noticia cargada usar split(indice,cuantos elementos borrar a partir de indice)
+ con indice.-- solo para admin loguado
+boton modificar para noticias-- solo para admin logueado
+se puede usar jquery

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="./FuncionesIndex.js"></script>
+    <link rel="stylesheet" href="./EstilosIndex.css">
+    <title>Primer Parcial</title>
+    <img src="./img/utnfra.jpg"><br>
+    <h1>Ultimas noticias</h1><br>
+    <input type="button" id="boton" name="boton" value="Nueva Noticia" class="boton" onclick="MostrarCarga('carga')" hidden =""><br>
+</head>
+<body>
+    <div class="div">            
+        <div id="carga" hidden="">
+            <label for="tema">Tema</label><br>
+            <input type="text" id="tema" name="tema"><br>
+            <label for="titulo">Titulo</label><br>
+            <input type="text" id="titulo" name="titulo" ><br>
+            <label for="parrafo">Parrafo</label><br>
+            <input type="text" id="parrafo" name="parrafo"><br>
+            <input type="button" id="guardar" name="boton" value="Guardar" class="boton" onclick="PeticionPOST2()">
+            <input type="button" id="cerrar" name="boton" value="Cerrar" class="boton" onclick="OcultarCarga('carga')"><br>
+        </div>
+        <div id="spinner" hidden=""><img src="./spinner.gif"></div>
+        <div id="cuerpo"></div>
+    </div>  
+</body>
+</html>

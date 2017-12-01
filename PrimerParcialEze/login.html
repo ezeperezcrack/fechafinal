@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="./Funciones.js"></script>
+    <link rel="stylesheet" href="./Estilos.css">
+    <title>Primer Parcial</title>
+</head>
+<body>
+        <center>
+    <div id="spinner" hidden="" class="divNormal"><img src="./spinner.gif"></div>
+    </center>
+    <div id="div" class="login">
+            <center>
+        <h1>Login para ingresar a las noticias</h1>   
+        <img src="./img/xTAB8.png">
+        <input type="text" id="email" name="email" class="textSinError" placeholder="E-mail..."><br>
+        <input type="password" id="pass" class="textSinError" name="password" placeholder="Password..."><br>
+        <label style="text-align: center;" hidden="" id="lbl">Debe ingresar un email y pasword validos</label><br>
+        <input type="button" id="boton" name="boton"  value="Entrar" class="boton" onclick="PeticionPOST()"><br>
+        </center>
+    </div>  
+</body>
+</html>
